@@ -4,93 +4,494 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abhishek Mandal | Portfolio</title>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>Abhishek Mandal</h1>
-    <p>B.Tech CSE (AI & Robotics) | Full Stack developer & AI Enthusiast | National Hackathon Winner</p>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">Abhishek Mandal</div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-label">HELLO, I'M</p>
+        <h1 class="hero-title">Abhishek Mandal</h1>
+        <p class="hero-subtitle">Python Developer & AI Enthusiast</p>
+        <p class="hero-description">
+          I build intelligent solutions with Python, AI, and Modern Technologies. 
+          Passionate about writing clean, efficient code and creating innovative applications.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Contact Me</a>
+          <a href="https://github.com/Abhi-ml07" target="_blank" class="btn btn-secondary">Browse My Work</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Abhi-ml07" target="_blank" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/abhishek-mandal-2045abhi/" target="_blank" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:mandal.abhishek2045@gmail.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="profile-placeholder">
+          <i class="fas fa-user-circle"></i>
+        </div>
+      </div>
+    </div>
   </header>
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am a B.Tech(CSE-AI & Robotics) student of Brainware University, passionate about Full Stack
-      Development, IoT, Cloud Computing, and Computer Vision.  
-      I love building real-world projects and learning new technologies.
-    </p>
-  </section>
-  <section id="skills">
-    <h2>Tech Stack</h2>
-    <div class="skills-container">
-      <span>C</span>
-      <span>C++</span>
-      <span>Java</span>
-      <span>Python</span>
-      <span>HTML5</span>
-      <span>CSS3</span>
-      <span>React</span>
-      <span>Node.js</span>
-      <span>Django</span>
-      <span>Flask</span>
-      <span>FastAPI</span>
-      <span>MongoDB</span>
-      <span>MySQL</span>
-      <span>Netlify</span>
-      <span>Git</span>
-      <span>GitHub</span>
-      <span>Arduino</span>
-      <span>Raspberry Pi</span>
-    </div>
-  </section>
-  <section id="projects">
-    <h2>Projects</h2>
 
-    <div class="project-card">
-      <h3>Smart Traffic & Ambulance System</h3>
-      <p>ESP32 + Sensors + GPS Module + SIM Module</p>
-    </div>
-
-    <div class="project-card">
-      <h3>Old Mobile as CCTV Camera</h3>
-      <p>Python + ESP32 + Sensors</p>
-    </div>
-
-    <div class="project-card">
-      <h3>Neuro Wheel-chair</h3>
-      <p>EMg sensor + Arduino + Raspberry Pi + ESP32 + Relay Module</p>
-    </div>
-    <div class="project-card">
-      <h3>Food Ordering System</h3>
-        <p>Django + HTML + CSS</p>
-    </div>
-    <div class="project-card">
-      <h3>Fitness Workout</h3>
-        <p>HTML + CSS + Three.js</p>
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-grid">
+          <div class="about-image">
+            <div class="profile-img-placeholder">
+              <i class="fas fa-user-circle"></i>
+            </div>
+          </div>
+          <div class="about-text">
+            <div class="about-meta">
+              <div class="meta-item">
+                <h3>Experience</h3>
+                <p>Python Developer & AI Enthusiast</p>
+              </div>
+              <div class="meta-item">
+                <h3>Education</h3>
+                <p>B.Tech CSE (AI & Robotics)<br/>Brainware University</p>
+              </div>
+            </div>
+            
+            <p>
+              👋 Hi, I'm Abhishek Mandal, a passionate Python Developer specializing in building intelligent solutions 
+              with Python, Data Science, and AI technologies. I love writing clean, efficient code and creating 
+              innovative applications that solve real-world problems.
+            </p>
+            <p>
+              With a strong foundation in Python and its ecosystem, I specialize in backend development, 
+              data analysis, and AI/ML applications. I'm experienced in Django, FastAPI for building robust 
+              server-side applications, and Python libraries for data science and machine learning.
+            </p>
+            <p>
+              I'm passionate about continuous learning and have won multiple national hackathons for 
+              innovative problem-solving. My focus is on developing scalable, efficient applications 
+              that make a real impact.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="Achivments">
-    <h2>Achievements</h2>
-   <div>
-    <ul>
-      <li>Winner of National Hackathon at Hack for Impact 2025, IIIT Delhi</li>
-      <li>Winner of National Hacksagon 2025, III Gwalior </li>
-      <li>Intern at Agnirva Space Corporation under AICTE,ISRO </li>
-    </ul>
-    </div>
-    </section>
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Skills & Technologies</h2>
+      
+      <div class="skills-tabs">
+        <button class="skill-tab active" data-category="all">All</button>
+        <button class="skill-tab" data-category="backend">Backend</button>
+        <button class="skill-tab" data-category="data-science">Data Science</button>
+        <button class="skill-tab" data-category="tools">Tools</button>
+      </div>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:mandal.abhishek2045@gmail.com">mandal.abhishek2045@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/ChakraWarrior35" target="_blank">github.com/ChakraWarrior35</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/abhishek-mandal-2045abhi/">LinkedIn Profile</a></p>
+      <div class="skills-grid">
+        <!-- Python -->
+        <div class="skill-card" data-category="backend">
+          <div class="skill-header">
+            <h3>Python</h3>
+            <span class="skill-level advanced">Advanced</span>
+          </div>
+          <p class="skill-description">Core programming language with expertise in Django, FastAPI, and standard libraries</p>
+        </div>
+
+        <!-- Django -->
+        <div class="skill-card" data-category="backend">
+          <div class="skill-header">
+            <h3>Django</h3>
+            <span class="skill-level advanced">Advanced</span>
+          </div>
+          <p class="skill-description">Full-featured web framework for building robust backend applications</p>
+        </div>
+
+        <!-- FastAPI -->
+        <div class="skill-card" data-category="backend">
+          <div class="skill-header">
+            <h3>FastAPI</h3>
+            <span class="skill-level intermediate">Intermediate</span>
+          </div>
+          <p class="skill-description">Modern async framework for building high-performance APIs</p>
+        </div>
+
+        <!-- Flask -->
+        <div class="skill-card" data-category="backend">
+          <div class="skill-header">
+            <h3>Flask</h3>
+            <span class="skill-level intermediate">Intermediate</span>
+          </div>
+          <p class="skill-description">Lightweight web framework for building simple to complex applications</p>
+        </div>
+
+        <!-- Machine Learning -->
+        <div class="skill-card" data-category="data-science">
+          <div class="skill-header">
+            <h3>Machine Learning</h3>
+            <span class="skill-level intermediate">Intermediate</span>
+          </div>
+          <p class="skill-description">Scikit-learn, TensorFlow, PyTorch for building ML models</p>
+        </div>
+
+        <!-- Data Analysis -->
+        <div class="skill-card" data-category="data-science">
+          <div class="skill-header">
+            <h3>Data Analysis</h3>
+            <span class="skill-level advanced">Advanced</span>
+          </div>
+          <p class="skill-description">Pandas, NumPy, Matplotlib for data manipulation and visualization</p>
+        </div>
+
+        <!-- Computer Vision -->
+        <div class="skill-card" data-category="data-science">
+          <div class="skill-header">
+            <h3>Computer Vision</h3>
+            <span class="skill-level intermediate">Intermediate</span>
+          </div>
+          <p class="skill-description">OpenCV, Image processing techniques for CV applications</p>
+        </div>
+
+        <!-- SQL -->
+        <div class="skill-card" data-category="tools">
+          <div class="skill-header">
+            <h3>SQL & Databases</h3>
+            <span class="skill-level advanced">Advanced</span>
+          </div>
+          <p class="skill-description">MySQL, PostgreSQL, MongoDB database design and querying</p>
+        </div>
+
+        <!-- Git -->
+        <div class="skill-card" data-category="tools">
+          <div class="skill-header">
+            <h3>Git & GitHub</h3>
+            <span class="skill-level advanced">Advanced</span>
+          </div>
+          <p class="skill-description">Version control, collaboration, and open-source contributions</p>
+        </div>
+
+        <!-- REST APIs -->
+        <div class="skill-card" data-category="backend">
+          <div class="skill-header">
+            <h3>REST APIs</h3>
+            <span class="skill-level advanced">Advanced</span>
+          </div>
+          <p class="skill-description">Building scalable and well-documented API endpoints</p>
+        </div>
+
+        <!-- HTML/CSS/JS -->
+        <div class="skill-card" data-category="backend">
+          <div class="skill-header">
+            <h3>Frontend Basics</h3>
+            <span class="skill-level intermediate">Intermediate</span>
+          </div>
+          <p class="skill-description">HTML5, CSS3, JavaScript for UI development</p>
+        </div>
+
+        <!-- Linux/Cloud -->
+        <div class="skill-card" data-category="tools">
+          <div class="skill-header">
+            <h3>Linux & Cloud</h3>
+            <span class="skill-level intermediate">Intermediate</span>
+          </div>
+          <p class="skill-description">Linux commands, AWS, Netlify deployment</p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <footer>
-    <p>© 2026 Abhishek Mandal</p>
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      
+      <div class="projects-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="ml">ML/AI</button>
+        <button class="filter-btn" data-filter="iot">IoT</button>
+      </div>
+      
+      <div class="projects-grid">
+        <div class="project-card" data-filter="web">
+          <div class="project-header">
+            <h3>Food Ordering System</h3>
+            <span class="project-badge">Web</span>
+          </div>
+          <div class="project-body">
+            <p class="project-description">
+              A full-stack food ordering web application with user authentication, menu management, 
+              order tracking, and admin dashboard.
+            </p>
+            <div class="project-tech">
+              <span>Django</span>
+              <span>PostgreSQL</span>
+              <span>HTML/CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/Abhi-ml07" target="_blank" class="project-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-filter="ml">
+          <div class="project-header">
+            <h3>Smart Traffic & Ambulance System</h3>
+            <span class="project-badge">IoT</span>
+          </div>
+          <div class="project-body">
+            <p class="project-description">
+              IoT-based intelligent system for optimizing traffic flow and prioritizing ambulance routes 
+              using sensors, GPS, and Python data processing.
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>ESP32</span>
+              <span>IoT</span>
+              <span>Data Processing</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/Abhi-ml07" target="_blank" class="project-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-filter="ml">
+          <div class="project-header">
+            <h3>Computer Vision CCTV</h3>
+            <span class="project-badge">ML/AI</span>
+          </div>
+          <div class="project-body">
+            <p class="project-description">
+              Transform an old smartphone into a functional CCTV camera using Python, OpenCV, 
+              and deep learning models for object detection and surveillance.
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>OpenCV</span>
+              <span>Deep Learning</span>
+              <span>IoT</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/Abhi-ml07" target="_blank" class="project-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-filter="iot">
+          <div class="project-header">
+            <h3>Neuro Wheelchair</h3>
+            <span class="project-badge">IoT</span>
+          </div>
+          <div class="project-body">
+            <p class="project-description">
+              Brain-controlled wheelchair using EMG sensors, Arduino, Raspberry Pi, and Python 
+              signal processing for accessibility enhancement.
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Arduino</span>
+              <span>Raspberry Pi</span>
+              <span>Signal Processing</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/Abhi-ml07" target="_blank" class="project-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-filter="web">
+          <div class="project-header">
+            <h3>Fitness Workout Tracker</h3>
+            <span class="project-badge">Web</span>
+          </div>
+          <div class="project-body">
+            <p class="project-description">
+              Interactive 3D fitness workout application with real-time exercise tracking, 
+              animation visualization, and progress monitoring.
+            </p>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Three.js</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/Abhi-ml07" target="_blank" class="project-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-filter="ml">
+          <div class="project-header">
+            <h3>Data Analysis Dashboard</h3>
+            <span class="project-badge">ML/AI</span>
+          </div>
+          <div class="project-body">
+            <p class="project-description">
+              Python-based data analysis and visualization dashboard using Pandas, NumPy, 
+              and Matplotlib for business intelligence and insights.
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Pandas</span>
+              <span>Matplotlib</span>
+              <span>Data Analysis</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/Abhi-ml07" target="_blank" class="project-link">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="view-more">
+        <a href="https://github.com/Abhi-ml07" target="_blank" class="btn btn-primary">View All Projects on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS SECTION -->
+  <section id="achievements" class="achievements">
+    <div class="container">
+      <h2 class="section-title">Achievements & Recognition</h2>
+      
+      <div class="achievements-list">
+        <div class="achievement-item">
+          <div class="achievement-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>National Hackathon Winner</h3>
+            <p>Winner at Hack for Impact 2025, IIIT Delhi</p>
+            <span class="achievement-year">2025</span>
+          </div>
+        </div>
+
+        <div class="achievement-item">
+          <div class="achievement-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>National Hackathon Winner</h3>
+            <p>Winner at National Hackathon 2025, IIIT Gwalior</p>
+            <span class="achievement-year">2025</span>
+          </div>
+        </div>
+
+        <div class="achievement-item">
+          <div class="achievement-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>AICTE-ISRO Internship</h3>
+            <p>Intern at Agnirva Space Corporation under AICTE & ISRO</p>
+            <span class="achievement-year">2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <a href="mailto:mandal.abhishek2045@gmail.com">mandal.abhishek2045@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <div>
+              <h3>LinkedIn</h3>
+              <a href="https://www.linkedin.com/in/abhishek-mandal-2045abhi/" target="_blank">Connect with me</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <div>
+              <h3>GitHub</h3>
+              <a href="https://github.com/Abhi-ml07" target="_blank">Check my projects</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2026 Abhishek Mandal. All Rights Reserved.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/Abhi-ml07" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/abhishek-mandal-2045abhi/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:mandal.abhishek2045@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
