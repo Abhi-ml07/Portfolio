@@ -82,7 +82,7 @@ A modern and interactive fitness workout website with 3D elements.
 ## 📬 Contact Me
 
 - 📧 Email: **mandalabhishek2045@gmail.com**
-- 💻 GitHub: [github.com/Chokewarn35](https://github.com/Abhi-ml07)
+- 💻 GitHub: [Abhi-ml07](https://github.com/Abhi-ml07)
 - 🔗 LinkedIn: [LinkedIn](https://www.linkedin.com/in/abhishek-mandal-2045abhi)
 
 ---
