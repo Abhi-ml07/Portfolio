@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abhishek Mondal | Python Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="\static\styles.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#home" class="nav-logo">AM.</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://www.linkedin.com/in/abhishek-mandal-2045abhi" target="_blank" class="nav-resume">Resume</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home">
+    <div class="hero-text">
+      <span class="hero-greeting">&lt; Hello World! /&gt;</span>
+      <h1 class="hero-name">Abhishek<br/>Mondal</h1>
+      <p class="hero-title">Python Developer &amp; AI Enthusiast</p>
+      <p class="hero-desc">
+        A motivated B.Tech CSE (AI &amp; Robotics) student building real-world
+        projects with Python, Django, Flask &amp; modern web technologies.
+        Passionate about AI, VR, and crafting efficient user-friendly solutions.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary"><i class="fas fa-code"></i> View Projects</a>
+        <a href="#contact" class="btn-outline"><i class="fas fa-paper-plane"></i> Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <img src="/static/img/my pic.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">Get To Know Me</div>
+    <h2 class="section-title">About Me</h2>
+    <div class="section-line"></div>
+    <div class="about-cards-row reveal">
+      <div class="about-card">
+        <h3>Experience</h3>
+        <p>Python Developer</p>
+        <small>Agnirva Space Corp · 2026</small>
+      </div>
+      <div class="about-card">
+        <h3>Education</h3>
+        <p>B.Tech – CSE (AI &amp; Robotics)</p>
+        <small>Brainware University · 2024–2028</small>
+      </div>
+      <div class="about-card">
+        <h3>Internship</h3>
+        <p>Agnirva Space Corporation</p>
+        <small>Under AICT · 2025–Jan</small>
+      </div>
+      <div class="about-card">
+        <h3>Internship</h3>
+        <p>Python Developer</p>
+        <small>Under Cognfiyz Technologies · Feb 2026 - March 2026</small>
+      </div>
+      <div class="about-card">
+        <h3>Hackathons</h3>
+        <p>Two-Times National Winner</p>
+        <small>🏆 National Level Competitions</small>
+      </div>
+    </div>
+    <div class="about-bio reveal">
+      Hi! I'm <strong>Abhishek Mondal</strong>, a motivated and detail-oriented B.Tech Computer Science Engineering
+      student specialising in AI &amp; Robotics at Brainware University. I have a strong foundation in
+      programming, web development, and problem-solving. I've built real-world projects using Python, Django,
+      Flask, HTML, CSS, and JavaScript. I'm passionate about learning emerging technologies — from
+      Virtual Reality simulations to AI-powered backends — and applying my skills to develop efficient,
+      user-friendly solutions.
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">What I Work With</div>
+    <h2 class="section-title">My Skills</h2>
+    <div class="section-line"></div>
+    <div class="tabs">
+      <button class="tab-btn active" onclick="showTab('lang', this)">Languages</button>
+      <button class="tab-btn" onclick="showTab('frontend', this)">Frontend</button>
+      <button class="tab-btn" onclick="showTab('backend', this)">Backend</button>
+      <button class="tab-btn" onclick="showTab('db', this)">Databases</button>
+      <button class="tab-btn" onclick="showTab('tools', this)">Tools</button>
+    </div>
+
+    <div id="lang" class="tab-content active">
+      <div class="skills-grid reveal">
+        <div class="skill-card"><div class="skill-icon">🐍</div><div class="skill-name">Python</div><div class="skill-level">Advanced</div><div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">⚙️</div><div class="skill-name">C</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">🔷</div><div class="skill-name">C++</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:72%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">☕</div><div class="skill-name">Java</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">🌐</div><div class="skill-name">HTML5</div><div class="skill-level">Advanced</div><div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">🎨</div><div class="skill-name">CSS3</div><div class="skill-level">Advanced</div><div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div></div>
+      </div>
+    </div>
+
+    <div id="frontend" class="tab-content">
+      <div class="skills-grid reveal">
+        <div class="skill-card"><div class="skill-icon">✨</div><div class="skill-name">Bootstrap</div><div class="skill-level">Advanced</div><div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">🌊</div><div class="skill-name">TailwindCSS</div><div class="skill-level">Advanced</div><div class="skill-bar"><div class="skill-fill" style="width:82%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">📱</div><div class="skill-name">Responsive Design</div><div class="skill-level">Advanced</div><div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div></div>
+      </div>
+    </div>
+
+    <div id="backend" class="tab-content">
+      <div class="skills-grid reveal">
+        <div class="skill-card"><div class="skill-icon">🦄</div><div class="skill-name">Django</div><div class="skill-level">Advanced</div><div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">🍶</div><div class="skill-name">Flask</div><div class="skill-level">Advanced</div><div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">⚡</div><div class="skill-name">FastAPI</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">📦</div><div class="skill-name">Node.js</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:72%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">🔌</div><div class="skill-name">REST API</div><div class="skill-level">Advanced</div><div class="skill-bar"><div class="skill-fill" style="width:82%"></div></div></div>
+      </div>
+    </div>
+
+    <div id="db" class="tab-content">
+      <div class="skills-grid reveal">
+        <div class="skill-card"><div class="skill-icon">🍃</div><div class="skill-name">MongoDB</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">🗄️</div><div class="skill-name">MySQL</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">🐘</div><div class="skill-name">PostgreSQL</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:72%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">💾</div><div class="skill-name">SQLite</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div></div>
+      </div>
+    </div>
+
+    <div id="tools" class="tab-content">
+      <div class="skills-grid reveal">
+        <div class="skill-card"><div class="skill-icon">🐙</div><div class="skill-name">Git</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">🐈‍⬛</div><div class="skill-name">GitHub</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">📮</div><div class="skill-name">Postman</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">🤖</div><div class="skill-name">Arduino</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">🔧</div><div class="skill-name">Raspberry Pi</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:72%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">📡</div><div class="skill-name">ESP32</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">🚀</div><div class="skill-name">Render</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">☁️</div><div class="skill-name">Netlify</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">☁️</div><div class="skill-name">Google Cloud</div><div class="skill-level">Basic</div><div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">🔐</div><div class="skill-name">Supabase</div><div class="skill-level">Basic</div><div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">📊</div><div class="skill-name">Datadog</div><div class="skill-level">Basic</div><div class="skill-bar"><div class="skill-fill" style="width:55%"></div></div></div>
+        <div class="skill-card"><div class="skill-icon">🎨</div><div class="skill-name">Canva</div><div class="skill-level">Intermediate</div><div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">What I've Built</div>
+    <h2 class="section-title">Projects</h2>
+    <div class="section-line"></div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Django</span>
+          <span class="tag">MongoDB</span>
+        </div>
+        <h3>🍽️ Bhojanly – Food Ordering App</h3>
+        <p>A dynamic food ordering web application with user authentication, menu listing, and order management. Built with Django following MVC architecture and clean code practices.</p>
+        <div class="project-links">
+          <a href="https://bhojanly.onrender.com/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          <a href="https://github.com/Abhi-ml07/BHOJANLY.git" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-tags">
+          <span class="tag">ESP32</span>
+          <span class="tag">Sensors</span>
+          <span class="tag">GPS</span>
+        </div>
+        <h3>🚨 Smart Traffic & Ambulance System</h3>
+        <p>IoT-based smart traffic management system with automatic ambulance priority. Uses ESP32, GPS module, and SIM module for real-time emergency vehicle tracking and traffic signal control.</p>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-tags">
+          <span class="tag">EMG Sensor</span>
+          <span class="tag">Arduino</span>
+          <span class="tag">Raspberry Pi</span>
+        </div>
+        <h3>🦽 Neuro Wheel-chair</h3>
+        <p>Advanced assistive technology project combining EMG sensor, Arduino, Raspberry Pi, ESP32, and relay modules to control wheelchair movement through brain signals and neural sensors.</p>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">Three.js</span>
+        </div>
+        <h3>💪 Fitness Workout</h3>
+        <p>Interactive fitness website featuring 3D visualizations using Three.js. Provides workout plans, exercise demonstrations, and progress tracking with immersive 3D graphics.</p>
+        <div class="project-links">
+           <a href="https://abhi-ml07.github.io/fit-workout/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          <a href="https://github.com/Abhi-ml07/BHOJANLY.git" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Flask</span>
+          <span class="tag">OpenAI API</span>
+        </div>
+        <h3>🤖 AI Chatbot</h3>
+        <p>Intelligent chatbot powered by OpenAI API with Flask backend. Features natural language processing, context awareness, and conversation history for seamless user interactions.</p>
+        <div class="project-links">
+          <a href="https://github.com/Abhi-ml07" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-tags">
+          <span class="tag">Flask</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">Web App</span>
+        </div>
+        <h3>🎌 OtakuHUb</h3>
+        <p>A community platform for anime enthusiasts built with Flask and MongoDB. Features user profiles, anime recommendations, discussion forums, and content sharing.</p>
+        <div class="project-links">
+          <a href="https://github.com/Abhi-ml07/OtakuHUb.git" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-tags">
+          <span class="tag">Flask</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">MongoDB</span>
+        </div>
+        <h3>🏫 Campuscare</h3>
+        <p>Comprehensive campus management platform built with Flask backend and MongoDB. Enables students and administrators to track campus issues, maintenance requests, and general communication.</p>
+        <div class="project-links">
+          <a href="https://campuscare-in.onrender.com/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          <a href="https://github.com/Abhi-ml07/Campuscare.git" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-tags">
+          <span class="tag">Flask</span>
+          <span class="tag">RestAPI</span>
+          <span class="tag">MongoDB</span>
+        </div>
+        <h3>📊 Finlytics</h3>
+        <p>Financial analytics dashboard with REST API backend built using Flask and MongoDB. Provides expense tracking, budget analysis, and financial insights with interactive visualizations.</p>
+        <div class="project-links">
+          <a href="https://finlytics-in.onrender.com/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          <a href="https://github.com/Abhi-ml07/Finlytics.git" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements">
+    <div class="section-label">My Wins</div>
+    <h2 class="section-title">Achievements</h2>
+    <div class="section-line"></div>
+    <div class="ach-grid">
+
+      <div class="ach-card reveal">
+        <div class="ach-icon">🏆</div>
+        <div>
+          <h3>National Hackathon Winner</h3>
+          <p>Won national-level hackathon competitions twice, showcasing problem-solving and coding under pressure.</p>
+        </div>
+      </div>
+
+      <div class="ach-card reveal">
+        <div class="ach-icon">🚀</div>
+        <div>
+          <h3>Agnirva Space Internship</h3>
+          <p>Selected as intern at Agnirva Space Corporation under AICT, working on VR-based technology and Python scripting.</p>
+        </div>
+      </div>
+
+      <div class="ach-card reveal">
+        <div class="ach-icon">🤖</div>
+        <div>
+          <h3>VR Module Development</h3>
+          <p>Assisted in developing interactive VR modules and simulations, gaining exposure to immersive tech workflows.</p>
+        </div>
+      </div>
+      
+      <div class="ach-card reveal">
+        <div class="ach-icon">💻</div>
+        <div>
+          <h3>Python Developer Internship</h3>
+          <p>Completed a Python Developer internship under Cognfiyz Technologies, enhancing backend development skills.</p>
+        </div>
+  
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label">Let's Connect</div>
+    <h2 class="section-title">Contact Me</h2>
+    <div class="section-line"></div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <a href="mailto:mandal.abhishek2045@gmail.com" class="contact-item">
+          <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <h4>Email</h4>
+            <p>mandal.abhishek2045@gmail.com</p>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/abhishek-mandal-2045abhi" target="_blank" class="contact-item">
+          <div class="contact-item-icon"><i class="fab fa-linkedin-in"></i></div>
+          <div>
+            <h4>LinkedIn</h4>
+            <p>Abhishek Mondal</p>
+          </div>
+        </a>
+        <a href="https://github.com/Abhi-ml07" target="_blank" class="contact-item">
+          <div class="contact-item-icon"><i class="fab fa-github"></i></div>
+          <div>
+            <h4>GitHub</h4>
+            <p>Abhi-ml07</p>
+          </div>
+        </a>
+        <div class="contact-item" style="cursor:default;">
+          <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <h4>Phone</h4>
+            <p>+91 95317 68416</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="reveal" onsubmit="handleForm(event)">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <input type="text" name="subject" placeholder="Subject" />
+        <textarea name="message" placeholder="Your Message..." required></textarea>
+        <button type="submit" class="btn-primary form-submit" onclick="sendEmail()">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Copyright © 2025 <span>Abhishek Mondal</span>. All Rights Reserved.</p>
+  </footer>
+
+  <script src="\static\script.js"></script>
+</body>
+</html>
