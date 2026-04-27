@@ -354,13 +354,13 @@
         </div>
       </div>
 
-      <form id="contactForm" class="reveal" onsubmit="handleForm(event)">
+      <form id="contactForm" class="reveal" onsubmit="handleFormSubmit(event)">
         <div class="form-row">
-          <input type="text" id="name" name="name" placeholder="Your Name" required />
-          <input type="email" id="email" name="email" placeholder="Your Email" required />
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
         </div>
-        <input type="text" id="subject" name="subject" placeholder="Subject" />
-        <textarea id="message" name="message" placeholder="Your Message..." required></textarea>
+        <input type="text" name="subject" placeholder="Subject" />
+        <textarea name="message" placeholder="Your Message..." required></textarea>
         <button type="submit" class="btn-primary form-submit">
           <i class="fas fa-paper-plane"></i> Send Message
         </button>
@@ -373,7 +373,6 @@
     <p>Copyright © 2025 <span>Abhishek Mondal</span>. All Rights Reserved.</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/build.min.js"></script>
   <script src="\static\script.js"></script>
 </body>
 </html>
