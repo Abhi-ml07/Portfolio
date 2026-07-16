@@ -59,9 +59,20 @@ body {
   box-shadow: 0 10px 24px rgba(124,106,247,0.22);
 }
 
-#social-media .social-media-grid a i {
-  font-size: 1.05rem;
+#social-media .social-media-grid a i,
+#social-media .social-media-grid a .social-icon {
+  width: 1.05rem;
+  height: 1.05rem;
   color: var(--accent3);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#social-media .social-media-grid a .social-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
 }
 
 /* Animated bg grid */
